@@ -39,4 +39,4 @@ When the user selects a row, you should segue to a Detail View. The Detail view 
 - A ```UILabel``` that shows how many people speak that language in the entire world **worldpopulation** 
 
 ## Bonus 
-Coming Soon
+Coming Soon...
