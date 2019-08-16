@@ -1,4 +1,4 @@
-# Languages 
+# Languages Practice Assigment
 
 # Github Instructions
 - Fork this repository.
@@ -27,15 +27,14 @@ There is also an empty Storyboard.  You have no existing View Controllers, so yo
 
 Load ```allLanguages``` into a ```Table View```.  
 
-- Each row should be the Countries **flag**, Countries **name**, and Countries **language** .  
+- Each row should be the Countries **flag**, Countries **name**, and Countries **language**.
+ You can customize it any way you like.
  
+When the user selects a row, you should segue to a Detail View. The Detail view should have:
 
-When the user selects a row, you should segue to a Detail View.   The Detail view should have:
+- A ```UILabel``` that shows the Countries **name** 
+- A ```UILabel``` that shows the Continent's **name** that the country is located in 
+- A ```UIImage``` that shows the Countries **flag** 
+- A ```UILabel``` that shows the Countries **language** 
+- A ```UILabel``` that shows how many people speak that language in the entire world **worldpopulation** 
 
-- A ```UILabel``` to show the **name** of the selected Crayon
-- A background color that starts as the same color as the selected Crayon.
-- A ```UISlider``` and ```UILabel``` that represents the current **red** value
-- A ```UISlider``` and ```UILabel``` that represents the current **green** value
-- A ```UISlider``` and ```UILabel``` that represents the current **blue** value
-- A ```UIStepper``` and ```UILabel``` that represents the current **alpha**
-- A reset ```UIButton``` that sets all the sliders and labels to be the corresponding colors of the Crayon the user selected and resets the alpha to 1.0.
